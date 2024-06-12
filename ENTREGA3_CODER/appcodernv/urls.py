@@ -12,7 +12,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
    path('admin/', admin.site.urls),
-   path('Home', views.inicio, name="Inicio"), #esta era nuestra primer view
+   path('', views.inicio, name="Inicio"), #esta era nuestra primer view
     path('cursos', views.cursos, name="Cursos"),
     path('profesores', views.profesores, name="Profesores"),
     path('estudiantes', views.estudiantes, name="Estudiantes"),
